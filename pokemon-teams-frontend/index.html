@@ -9,11 +9,22 @@
     <header>
       <h2>Pokemon Teams!</h2>
     </header>
+    <div class="container">
+      <form class="add-pokemon-form" style="">
+        <h3>Add a Pokemon!</h3>
 
+        <input type="text" name="nickname" value="" placeholder="Pokemon's nickname..." class="input-text">
+        <br>
+        <input type="text" name="species" value="" placeholder="Pokemon's species..." class="input-text">
+        <br>
+        <input type="submit" name="submit" value="Create New Pokemon" class="submit">
+      </form>
+    </div>
     <main>
       <!-- Add our Pokemon -->
     </main>
 
+    <script src="./src/api.js"></script>
     <script src="./src/index.js"></script>
   </body>
 </html>

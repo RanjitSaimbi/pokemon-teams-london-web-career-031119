@@ -7,6 +7,7 @@ header {
   background-color: #4caf50;
   margin: 0 auto;
   height: 50px;
+  font-family: Helvetica;
 }
 
 header h2 {
@@ -56,6 +57,46 @@ button.release {
   background-color: #E1332D;
 }
 
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  background: #515DA2
+}
+
+.add-pokemon-form {
+  width: 80%
+}
+
+.submit {
+  position: relative;
+  background-color: #e04b52;
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 14px;
+  justify-self: center;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #e04b52 solid 1px;
+  color: #e04b52;
+}
+
+
+.input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 14px;
+  margin: 3px;
+}
+
+
 @media only screen and (min-width: 500px) {
   main {
     grid-template-columns: 1fr 1fr;
@@ -67,3 +108,4 @@ button.release {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
