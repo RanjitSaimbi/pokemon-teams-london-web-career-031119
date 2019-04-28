@@ -41,7 +41,7 @@ const addEventListenertoForm = () => {pokeForm.addEventListener('submit', (e) =>
     trainerCard.querySelector('ul').appendChild(li)
     createPokemon(pokemon)
 
-    // bug to consider - when new pokemon is made, page needs to be refershed before it can be deleted, as delete button not assigned pokemon.id
+    // bug to consider - when new pokemon is made, page needs to be refreshed before it can be deleted, as delete button not assigned pokemon.id
     // location.reload()? 
 
     pokeForm.reset()
